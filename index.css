@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(fundo.jpg);
+    background-size: cover  ;
+}
+
+.calendar{
+    position: relative;
+    width: 200px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+}
+
+.calendar #nomeMes {
+    position: relative;
+    padding: 5px 10px;
+    background: #ff3180;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.calendar #nomeDia {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #1E90FF;
+    text-transform: capitalize;
+}
+
+.calendar #numeroDia {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.calendar #ano{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.calendar #relogio{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #000000;
+    text-transform: capitalize;
+}
